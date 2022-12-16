@@ -1,0 +1,50 @@
+table,tr,th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 6px; 
+}
+th,tr:last-child{
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+
+}
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+tr:nth-child(even){
+    background-color: rgb(237, 237, 237);
+}
+tr:last-child{
+    background-color: gray ;
+}
+ button{
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    margin-top: 3px;
+    float: right;
+    
+    
+ }
+button:hover{
+    color: black;
+}
+.total{
+    text-align: right;
+}
+div{
+    width:440px;
+    
+}
+.pay{
+    float: right;
+    margin-right: 4px;
+}
+
+
